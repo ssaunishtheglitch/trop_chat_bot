@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function (req, res, next) {
     console.log('hello');
-    console.log(req.body.toString());
+    console.log(req.body.entry);
 });
 
 module.exports = router;
